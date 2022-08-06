@@ -1,4 +1,4 @@
 # Message-in-a-Soyjak
-How to use:
-Install tampermonkey.
-Put the contents of mainscript.js into tampermonkey. 
+How to use:<br>
+Install tampermonkey.<br>
+Put the contents of mainscript.js into tampermonkey.<br>
