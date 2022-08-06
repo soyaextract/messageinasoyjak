@@ -1,8 +1,8 @@
 // ==UserScript==
 // @name         Message-in-a-Soyjak
 // @namespace    http://tampermonkey.net/
-// @version      0.1.2
-// @description  For reading messages inside soyjaks.
+// @version      0.1.3
+// @description  For reading and putting messages in soyjaks.
 // @author       (You)
 // @match        https://soyjak.party/*
 // @icon         https://soyjak.party/static/favicon.png
