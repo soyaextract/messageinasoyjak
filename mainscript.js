@@ -16,9 +16,6 @@
     ref_node.parentNode.insertBefore(new_node, ref_node.nextSibling);
   }
 
-
-////////////////////////////Encoding
-
   function encode(zone) {
     let basefile = document.querySelector("input[id=encfin]").files[0];
     let txtbx = document.querySelector("input[id=enctin]");
@@ -91,8 +88,6 @@
        }
      }
      fctx.putImageData(original, 0, 0);
-     //Open save-as dialog for the original image
-
 
       };
     }
@@ -150,6 +145,8 @@
   }
 
   function add_buttons() {
+    let postform = document.querySelector("form[name='post']");
+    postform.style['margin-bottom'] = '2em';
     //Add decoding buttons:
     let img_nodes = document.querySelectorAll("a[title^='Save as original filename']")
     for(const node of img_nodes) {
